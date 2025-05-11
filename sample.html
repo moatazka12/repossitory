@@ -1,16 +1,119 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<title>Sample Program</title>
-
+  <meta charset="UTF-8">
+  <title>Eye Tracking for Ad Effectiveness - Weekly Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
+    h1, h2 { color: #003366; }
+    .week { margin-bottom: 40px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    nav { background: #003366; padding: 10px; margin-bottom: 30px; border-radius: 8px; }
+    nav a { color: white; text-decoration: none; margin-right: 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
-
 <body>
-<h1>Sample Program></h1>
 
-<p>Hi...This is my first HTML program</p>
+  <h1>Eye Tracking for Ad Effectiveness: Weekly Project Report</h1>
+
+  <nav>
+    <a href="#week1">Week 1</a>
+    <a href="#week2">Week 2</a>
+    <a href="#week3">Week 3</a>
+    <a href="#week4">Week 4</a>
+    <a href="#week5">Week 5</a>
+    <a href="#week6">Week 6</a>
+    <a href="#week7">Week 7</a>
+    <a href="#week8">Week 8</a>
+  </nav>
+
+  <div class="week" id="week1">
+    <h2>Week 1: Defining the Project Scope</h2>
+    <p><strong>Objective:</strong> Define project goals, review literature, and identify tools and methods for analyzing visual content in advertisements.</p>
+    <ul>
+      <li>Defined the scope of the project focusing on eye-tracking relevance.</li>
+      <li>Reviewed prior studies on visual perception, image segmentation, and social media ad performance.</li>
+      <li>Outlined the research plan and project timeline.</li>
+      <li>Tools identified: Python, OpenCV, CNNs, and social media scraping frameworks.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> A clear roadmap for the next stages was created, ensuring a strong foundation.</p>
+  </div>
+
+  <div class="week" id="week2">
+    <h2>Week 2: Data Collection and Initial Analysis</h2>
+    <p><strong>Objective:</strong> Gather image data from social platforms and perform a preliminary analysis of visual features linked to user interaction.</p>
+    <ul>
+      <li>Scraped ads and images from Instagram and Twitter.</li>
+      <li>Tagging included brightness, text presence, and layout structure.</li>
+      <li>Basic visual trends were identified: brighter colors and centered layouts saw better engagement.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> Data is prepared for advanced feature extraction in upcoming weeks.</p>
+  </div>
+
+  <div class="week" id="week3">
+    <h2>Week 3: Extraneous Sources and Image Mining</h2>
+    <p><strong>Objective:</strong> Apply CNN-based image mining to extract features and identify patterns in high/low engagement ads.</p>
+    <ul>
+      <li>Used pre-trained models (VGG16, ResNet50) to analyze imagery.</li>
+      <li>Found face presence and color intensity influenced user attention.</li>
+      <li>t-SNE visualizations showed strong clustering between high- and low-engagement posts.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> Feature-rich datasets prepared for training predictive models in Week 4.</p>
+  </div>
+
+  <div class="week" id="week4">
+    <h2>Week 4: Building the First Model and Initial Testing</h2>
+    <p><strong>Objective:</strong> Train a baseline model to predict engagement levels from visual inputs.</p>
+    <ul>
+      <li>Implemented Logistic Regression and Decision Tree models.</li>
+      <li>Initial results: Decision Tree performed better (68% accuracy).</li>
+      <li>Facial presence and color saturation were the most predictive features.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> Baseline set; future iterations will improve using advanced methods.</p>
+  </div>
+
+  <div class="week" id="week5">
+    <h2>Week 5: Model Optimization and Parameter Tuning</h2>
+    <p><strong>Objective:</strong> Boost accuracy using ensemble learning and hyperparameter optimization.</p>
+    <ul>
+      <li>Tested Random Forest and XGBoost models with GridSearchCV.</li>
+      <li>XGBoost reached 83% accuracy on validation sets.</li>
+      <li>Improved model's ability to predict high-engagement ads.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> Optimized models are ready for interface integration.</p>
+  </div>
+
+  <div class="week" id="week6">
+    <h2>Week 6: Model Integration with User Interface</h2>
+    <p><strong>Objective:</strong> Build a prototype interface that integrates the model for user testing.</p>
+    <ul>
+      <li>Flask app developed with image upload and prediction feedback.</li>
+      <li>Users can view image effectiveness and get suggestions to improve it (color balance, focus).</li>
+    </ul>
+    <p><strong>Conclusion:</strong> A functional demo is live and ready for user feedback in Week 7.</p>
+  </div>
+
+  <div class="week" id="week7">
+    <h2>Week 7: System Testing and Feedback</h2>
+    <p><strong>Objective:</strong> Conduct user testing and refine the interface based on feedback.</p>
+    <ul>
+      <li>10 users tested the demo and provided input.</li>
+      <li>Added visual guides and more intuitive feedback display based on their suggestions.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> Interface improved; testing validated project usefulness for marketers and designers.</p>
+  </div>
+
+  <div class="week" id="week8">
+    <h2>Week 8: Documentation and Finalization</h2>
+    <p><strong>Objective:</strong> Compile all work, generate documentation, and deliver the final report and presentation.</p>
+    <ul>
+      <li>Created documentation for models, interface, and data sources.</li>
+      <li>Final presentation includes visuals, model graphs, and use case demos.</li>
+      <li>Delivered ZIP with code, HTML interface, and final report PDFs.</li>
+    </ul>
+    <p><strong>Conclusion:</strong> The project is now complete, offering a working example of using eye-tracking insights for ad optimization.</p>
+  </div>
 
 </body>
-
 </html>
